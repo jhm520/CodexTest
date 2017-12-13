@@ -1,4 +1,4 @@
-﻿Log file open, 12/12/17 20:37:40
+﻿Log file open, 12/12/17 20:42:23
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: CodexTest
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1560769711) SRandInit(-1560769711).
+LogInit: Display: RandInit(-400221454) SRandInit(-400221454).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3794801, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.148994
+LogStats: Stats thread started at 0.150307
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -189,467 +189,391 @@ LogInit: Compiled (64-bit): Dec  8 2017 02:04:53
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line: -EpicPortal 
+LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.12.13-04.37.40:913][  0]LogInit: Selected Device Profile: [Windows]
-[2017.12.13-04.37.40:913][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.12.13-04.37.40:920][  0]LogInit: Computer: JETBOT
-[2017.12.13-04.37.40:920][  0]LogInit: User: jhm52
-[2017.12.13-04.37.40:920][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.12.13-04.37.40:920][  0]LogInit: High frequency timer resolution =4.101559 MHz
-[2017.12.13-04.37.40:921][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2017.12.13-04.37.40:921][  0]LogMemory: Platform Memory Stats for Windows
-[2017.12.13-04.37.40:921][  0]LogMemory: Process Physical Memory: 273.07 MB used, 273.07 MB peak
-[2017.12.13-04.37.40:921][  0]LogMemory: Process Virtual Memory: 272.01 MB used, 272.01 MB peak
-[2017.12.13-04.37.40:921][  0]LogMemory: Physical Memory: 7984.05 MB used,  24702.89 MB free, 32686.94 MB total
-[2017.12.13-04.37.40:921][  0]LogMemory: Virtual Memory: 679.73 MB used,  24702.89 MB free, 134217728.00 MB total
-[2017.12.13-04.37.41:019][  0]LogInit: Using OS detected language (en-US).
-[2017.12.13-04.37.41:019][  0]LogInit: Using OS detected locale (en-US).
-[2017.12.13-04.37.41:021][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.12.13-04.37.41:305][  0]LogInit: Setting process to per monitor DPI aware
-[2017.12.13-04.37.41:483][  0]LogD3D11RHI: D3D11 adapters:
-[2017.12.13-04.37.41:519][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
-[2017.12.13-04.37.41:519][  0]LogD3D11RHI:       6061/0/16343 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.12.13-04.37.41:520][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.12.13-04.37.41:520][  0]LogD3D11RHI:       0/0/16343 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.12.13-04.37.41:520][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.12.13-04.37.41:525][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.12.13-04.37.41:525][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
-[2017.12.13-04.37.41:525][  0]LogWindows: EnumDisplayDevices:
-[2017.12.13-04.37.41:525][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
-[2017.12.13-04.37.41:525][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
-[2017.12.13-04.37.41:525][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2017.12.13-04.37.41:526][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2017.12.13-04.37.41:526][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2017.12.13-04.37.41:526][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
-[2017.12.13-04.37.41:526][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2017.12.13-04.37.41:526][  0]LogD3D11RHI:      Driver Date: Unknown
-[2017.12.13-04.37.41:526][  0]LogRHI: Texture pool is 4242 MB (70% of 6061 MB)
-[2017.12.13-04.37.41:545][  0]LogD3D11RHI: Async texture creation enabled
-[2017.12.13-04.37.41:577][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.12.13-04.37.41:578][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/jhm52/Documents/Unreal Projects/CodexTest/Intermediate/Shaders/WorkingDirectory/14224/).
-[2017.12.13-04.37.41:579][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jhm52/AppData/Local/Temp/UnrealShaderWorkingDir/D245D03446AF4B0B4D42D49EB7DAE5ED/'.
-[2017.12.13-04.37.41:579][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.12.13-04.37.42:204][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.12.13-04.37.42:239][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.12.13-04.37.42:274][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.12.13-04.37.42:309][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.12.13-04.37.42:345][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.12.13-04.37.42:381][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.12.13-04.37.42:416][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.12.13-04.37.42:452][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.12.13-04.37.42:482][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.12.13-04.37.42:517][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.12.13-04.37.42:552][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.12.13-04.37.42:587][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.12.13-04.37.42:621][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.12.13-04.37.42:655][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.12.13-04.37.42:726][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.12.13-04.37.42:726][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.12.13-04.37.42:761][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.12.13-04.37.42:788][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.12.13-04.37.42:858][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.12.13-04.37.42:878][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.12.13-04.37.42:913][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.12.13-04.37.42:947][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.12.13-04.37.42:981][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.12.13-04.37.43:016][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.12.13-04.37.43:016][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.12.13-04.37.43:335][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.12.13-04.37.43:389][  0]LogDerivedDataCache: Loaded boot cache 0.05s 96MB C:/Users/jhm52/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2017.12.13-04.37.43:389][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jhm52/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2017.12.13-04.37.43:389][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jhm52/Documents/Unreal Projects/CodexTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.12.13-04.37.43:389][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.12.13-04.37.43:389][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jhm52/Documents/Unreal Projects/CodexTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.12.13-04.37.43:389][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.12.13-04.37.43:400][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.12.13-04.37.43:412][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jhm52/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.12.13-04.37.43:418][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.12.13-04.37.43:419][  0]LogSlate: Using Freetype 2.6.0
-[2017.12.13-04.37.43:419][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.12.13-04.37.43:419][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.12.13-04.37.43:673][  0]LogInit: Selected Device Profile: [Windows]
-[2017.12.13-04.37.43:900][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.12.13-04.37.43:929][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.12.13-04.37.43:929][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.12.13-04.37.43:929][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.12.13-04.37.43:929][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.12.13-04.37.43:929][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.12.13-04.37.43:952][  0]LogNetVersion: CodexTest , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4184562547)
-[2017.12.13-04.37.44:071][  0]LogAssetRegistry: FAssetRegistry took 0.0242 seconds to start up
-[2017.12.13-04.37.44:419][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.048251 seconds
-[2017.12.13-04.37.44:423][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
-[2017.12.13-04.37.44:423][  0]LogUObjectAllocator: 7372016 out of 0 bytes used by permanent object pool.
-[2017.12.13-04.37.44:423][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.12.13-04.37.44:462][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.12.13-04.37.46:354][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.12.13-04.37.46:393][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.12.13-04.37.46:879][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.12.13-04.37.47:187][  0]SourceControl: Source control is disabled
-[2017.12.13-04.37.47:187][  0]SourceControl: Source control is disabled
-[2017.12.13-04.37.47:223][  0]SourceControl: Source control is disabled
-[2017.12.13-04.37.47:260][  0]SourceControl: Source control is disabled
-[2017.12.13-04.37.47:816][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.12.13-04.37.48:002][  0]LogOcInput: OculusInput pre-init called
-[2017.12.13-04.37.48:206][  0]LogEngine: Initializing Engine...
-[2017.12.13-04.37.48:226][  0]LogHMD: Failed to initialize OpenVR with code 126
-[2017.12.13-04.37.48:384][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.12.13-04.37.48:384][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.12.13-04.37.48:480][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.12.13-04.37.48:495][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.12.13-04.37.48:509][  0]LogInit: FAudioDevice initialized.
-[2017.12.13-04.37.48:595][  0]LogDerivedDataCache: Saved boot cache 0.09s 96MB C:/Users/jhm52/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2017.12.13-04.37.48:604][  0]LogInit: Texture streaming: Enabled
-[2017.12.13-04.37.48:674][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.12.13-04.37.48:767][  0]LogInit: Transaction tracking system initialized
-[2017.12.13-04.37.48:982][  0]BlueprintLog: New page: Editor Load
-[2017.12.13-04.37.49:629][  0]LocalizationService: Localization service is disabled
-[2017.12.13-04.37.50:320][  0]LogConsoleResponse: Display: 
-[2017.12.13-04.37.50:444][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jhm52/Documents/Unreal Projects/CodexTest/Content/' took 0.01s
-[2017.12.13-04.37.50:444][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.12.13-04.37.50:444][  0]LogCook: Display: Mobile HDR setting 1
-[2017.12.13-04.37.50:444][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.12.13-04.37.51:265][  0]SourceControl: Source control is disabled
-[2017.12.13-04.37.51:265][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.12.13-04.37.51:266][  0]LightingResults: New page: Lighting Build
-[2017.12.13-04.37.51:294][  0]MapCheck: New page: Map Check
-[2017.12.13-04.37.51:294][  0]LightingResults: New page: Lighting Build
-[2017.12.13-04.37.51:445][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2017.12.13-04.37.51:449][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.12.13-04.37.51:456][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.12.13-04.37.51:487][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 30.979ms to complete.
-[2017.12.13-04.37.51:487][  0]LogFileHelpers: Loading map 'Template_Default' took 0.222
-[2017.12.13-04.37.51:619][  0]LogCollectionManager: Loaded 0 collections in 0.000973 seconds
-[2017.12.13-04.37.51:689][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jhm52/Documents/Unreal Projects/CodexTest/Saved/Collections/' took 0.01s
-[2017.12.13-04.37.51:689][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jhm52/Documents/Unreal Projects/CodexTest/Content/Developers/jhm52/Collections/' took 0.01s
-[2017.12.13-04.37.51:689][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jhm52/Documents/Unreal Projects/CodexTest/Content/Collections/' took 0.01s
-[2017.12.13-04.37.51:689][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2017.12.13-04.37.51:695][  0]LogContentBrowser: Native class hierarchy populated in 0.0057 seconds. Added 2363 classes and 519 folders.
-[2017.12.13-04.37.51:741][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2017.12.13-04.37.51:763][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0001 seconds. Added 0 classes and 0 folders.
-[2017.12.13-04.37.51:792][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2017.12.13-04.37.51:833][  0]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.12.13-04.37.51:834][  0]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.12.13-04.37.51:838][  0]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.12.13-04.37.51:908][  0]LogRenderer: Reallocating scene render targets to support 1100x544 Format 9 NumSamples 1 (Frame:1).
-[2017.12.13-04.37.52:046][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2017.12.13-04.37.52:046][  0]LogLoad: (Engine Initialization) Total time: 12.63 seconds
-[2017.12.13-04.37.52:046][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.12.13-04.37.52:046][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.12.13-04.37.52:046][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.12.13-04.37.52:055][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.12.13-04.37.52:074][  0]LogAssetRegistry: Asset discovery search completed in 8.0241 seconds
-[2017.12.13-04.37.52:075][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2017.12.13-04.37.52:075][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
-[2017.12.13-04.37.52:078][  0]LogContentStreaming: Texture pool size now 400 MB
-[2017.12.13-04.38.24:843][449]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.12.13-04.38.30:618][472]LogSlate: Took 0.000099 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.12.13-04.38.30:631][472]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CodexMap" FILE="../../../../../../Users/jhm52/Documents/Unreal Projects/CodexTest/Content/CodexMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.12.13-04.38.30:664][472]LogSavePackage: Save=23.14ms
-[2017.12.13-04.38.30:664][472]LogSavePackage: Moving '../../../../../../Users/jhm52/Documents/Unreal Projects/CodexTest/Saved/CodexMapB6A0468246975FDD68B66E9B3093243B.tmp' to '../../../../../../Users/jhm52/Documents/Unreal Projects/CodexTest/Content/CodexMap.umap'
-[2017.12.13-04.38.30:665][472]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhm52/Documents/Unreal Projects/CodexTest/Content/CodexMap.umap
-[2017.12.13-04.38.30:681][472]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CodexMap_BuiltData" FILE="../../../../../../Users/jhm52/Documents/Unreal Projects/CodexTest/Content/CodexMap_BuiltData.uasset" SILENT=true
-[2017.12.13-04.38.30:693][472]LogSavePackage: Save=10.38ms
-[2017.12.13-04.38.30:693][472]LogSavePackage: Moving '../../../../../../Users/jhm52/Documents/Unreal Projects/CodexTest/Saved/CodexMap_BuiltDataE216AEC846592915DBEB0FB5696B76E4.tmp' to '../../../../../../Users/jhm52/Documents/Unreal Projects/CodexTest/Content/CodexMap_BuiltData.uasset'
-[2017.12.13-04.38.30:694][472]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhm52/Documents/Unreal Projects/CodexTest/Content/CodexMap_BuiltData.uasset
-[2017.12.13-04.38.30:698][472]LogFileHelpers: Saving map 'CodexMap' took 0.121
-[2017.12.13-04.38.30:782][482]LogSlate: Took 0.000096 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.12.13-04.39.23:272][150]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.12.13-04.39.23:428][151]Cmd: QUIT_EDITOR
-[2017.12.13-04.39.23:449][151]LogExit: Preparing to exit.
-[2017.12.13-04.39.24:436][151]LogDirectoryWatcher: A directory notification for 'C:/Users/jhm52/Documents/Unreal Projects/CodexTest/Content/' was aborted.
-[2017.12.13-04.39.24:446][151]LogExit: Editor shut down
-[2017.12.13-04.39.24:447][151]LogExit: Transaction tracking system shut down
-[2017.12.13-04.39.24:586][151]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.12.13-04.39.24:586][151]LogDirectoryWatcher: A directory notification for '../../../../../../Users/jhm52/Documents/Unreal Projects/CodexTest/Content/' was aborted.
-[2017.12.13-04.39.24:586][151]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.12.13-04.39.24:586][151]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2017.12.13-04.39.24:586][151]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2017.12.13-04.39.24:586][151]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2017.12.13-04.39.24:586][151]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2017.12.13-04.39.24:610][151]LogExit: Object subsystem successfully closed.
-[2017.12.13-04.39.24:625][151]LogD3D11RHI: Shutdown
-[2017.12.13-04.39.24:625][151]LogD3D11RHI: CleanupD3DDevice
-[2017.12.13-04.39.24:626][151]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.12.13-04.39.24:637][151]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (550)
-[2017.12.13-04.39.24:637][151]LogModuleManager: Shutting down and abandoning module SceneOutliner (548)
-[2017.12.13-04.39.24:637][151]LogModuleManager: Shutting down and abandoning module AddContentDialog (546)
-[2017.12.13-04.39.24:637][151]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module WidgetCarousel (545)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module EditorWidgets (542)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module CollectionManager (540)
-[2017.12.13-04.39.24:638][151]LogDirectoryWatcher: A directory notification for 'C:/Users/jhm52/Documents/Unreal Projects/CodexTest/Content/Collections/' was aborted.
-[2017.12.13-04.39.24:638][151]LogDirectoryWatcher: A directory notification for 'C:/Users/jhm52/Documents/Unreal Projects/CodexTest/Content/Developers/jhm52/Collections/' was aborted.
-[2017.12.13-04.39.24:638][151]LogDirectoryWatcher: A directory notification for 'C:/Users/jhm52/Documents/Unreal Projects/CodexTest/Saved/Collections/' was aborted.
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (538)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module BspMode (520)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module SessionServices (478)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
-[2017.12.13-04.39.24:638][151]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
-[2017.12.13-04.39.24:918][151]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
-[2017.12.13-04.39.24:918][151]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
-[2017.12.13-04.39.24:918][151]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
-[2017.12.13-04.39.24:918][151]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
-[2017.12.13-04.39.24:919][151]LogModuleManager: Shutting down and abandoning module MergeActors (446)
-[2017.12.13-04.39.24:919][151]LogModuleManager: Shutting down and abandoning module SizeMap (444)
-[2017.12.13-04.39.24:919][151]LogModuleManager: Shutting down and abandoning module TreeMap (442)
-[2017.12.13-04.39.24:919][151]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
-[2017.12.13-04.39.24:919][151]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
-[2017.12.13-04.39.24:919][151]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
-[2017.12.13-04.39.24:919][151]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
-[2017.12.13-04.39.24:919][151]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
-[2017.12.13-04.39.24:919][151]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
-[2017.12.13-04.39.24:919][151]LogModuleManager: Shutting down and abandoning module XmlParser (428)
-[2017.12.13-04.39.24:919][151]LogModuleManager: Shutting down and abandoning module Blutility (426)
-[2017.12.13-04.39.24:919][151]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
-[2017.12.13-04.39.24:919][151]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
-[2017.12.13-04.39.24:919][151]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
-[2017.12.13-04.39.24:919][151]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
-[2017.12.13-04.39.24:919][151]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
-[2017.12.13-04.39.24:919][151]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
-[2017.12.13-04.39.24:919][151]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
-[2017.12.13-04.39.24:919][151]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
-[2017.12.13-04.39.24:919][151]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
-[2017.12.13-04.39.24:972][151]LogModuleManager: Shutting down and abandoning module AutomationController (406)
-[2017.12.13-04.39.24:972][151]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
-[2017.12.13-04.39.24:972][151]LogModuleManager: Shutting down and abandoning module Layers (402)
-[2017.12.13-04.39.24:972][151]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
-[2017.12.13-04.39.24:972][151]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
-[2017.12.13-04.39.24:972][151]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
-[2017.12.13-04.39.24:972][151]LogModuleManager: Shutting down and abandoning module Persona (394)
-[2017.12.13-04.39.24:972][151]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
-[2017.12.13-04.39.24:972][151]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
-[2017.12.13-04.39.24:972][151]LogModuleManager: Shutting down and abandoning module Kismet (388)
-[2017.12.13-04.39.24:972][151]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
-[2017.12.13-04.39.24:972][151]LogModuleManager: Shutting down and abandoning module Toolbox (384)
-[2017.12.13-04.39.24:972][151]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
-[2017.12.13-04.39.24:972][151]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
-[2017.12.13-04.39.24:972][151]LogModuleManager: Shutting down and abandoning module OutputLog (378)
-[2017.12.13-04.39.24:972][151]LogModuleManager: Shutting down and abandoning module GammaUI (376)
-[2017.12.13-04.39.24:972][151]LogModuleManager: Shutting down and abandoning module Documentation (374)
-[2017.12.13-04.39.24:972][151]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
-[2017.12.13-04.39.24:972][151]LogModuleManager: Shutting down and abandoning module MovieScene (370)
-[2017.12.13-04.39.24:972][151]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
-[2017.12.13-04.39.24:972][151]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
-[2017.12.13-04.39.24:972][151]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
-[2017.12.13-04.39.24:972][151]LogModuleManager: Shutting down and abandoning module PortalServices (362)
-[2017.12.13-04.39.24:972][151]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
-[2017.12.13-04.39.24:972][151]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
-[2017.12.13-04.39.24:972][151]LogModuleManager: Shutting down and abandoning module AIModule (356)
-[2017.12.13-04.39.24:972][151]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
-[2017.12.13-04.39.24:972][151]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
-[2017.12.13-04.39.24:972][151]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
-[2017.12.13-04.39.24:972][151]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
-[2017.12.13-04.39.25:030][151]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
-[2017.12.13-04.39.25:030][151]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
-[2017.12.13-04.39.25:030][151]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
-[2017.12.13-04.39.25:030][151]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
-[2017.12.13-04.39.25:030][151]LogModuleManager: Shutting down and abandoning module OculusInput (338)
-[2017.12.13-04.39.25:030][151]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
-[2017.12.13-04.39.25:030][151]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
-[2017.12.13-04.39.25:030][151]LogModuleManager: Shutting down and abandoning module CableComponent (332)
-[2017.12.13-04.39.25:030][151]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
-[2017.12.13-04.39.25:030][151]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
-[2017.12.13-04.39.25:030][151]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
-[2017.12.13-04.39.25:030][151]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
-[2017.12.13-04.39.25:030][151]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
-[2017.12.13-04.39.25:030][151]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
-[2017.12.13-04.39.25:030][151]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
-[2017.12.13-04.39.25:030][151]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
-[2017.12.13-04.39.25:030][151]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
-[2017.12.13-04.39.25:030][151]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
-[2017.12.13-04.39.25:030][151]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
-[2017.12.13-04.39.25:030][151]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
-[2017.12.13-04.39.25:030][151]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
-[2017.12.13-04.39.25:030][151]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
-[2017.12.13-04.39.25:030][151]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
-[2017.12.13-04.39.25:030][151]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
-[2017.12.13-04.39.25:030][151]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
-[2017.12.13-04.39.25:030][151]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
-[2017.12.13-04.39.25:030][151]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
-[2017.12.13-04.39.25:030][151]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
-[2017.12.13-04.39.25:030][151]LogModuleManager: Shutting down and abandoning module SourceControl (289)
-[2017.12.13-04.39.25:030][151]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
-[2017.12.13-04.39.25:030][151]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
-[2017.12.13-04.39.25:030][151]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
-[2017.12.13-04.39.25:030][151]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
-[2017.12.13-04.39.25:030][151]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
-[2017.12.13-04.39.25:030][151]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
-[2017.12.13-04.39.25:031][151]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
-[2017.12.13-04.39.25:031][151]LogModuleManager: Shutting down and abandoning module MainFrame (274)
-[2017.12.13-04.39.25:031][151]LogModuleManager: Shutting down and abandoning module HotReload (273)
-[2017.12.13-04.39.25:031][151]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
-[2017.12.13-04.39.25:031][151]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
-[2017.12.13-04.39.25:031][151]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
-[2017.12.13-04.39.25:031][151]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
-[2017.12.13-04.39.25:031][151]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
-[2017.12.13-04.39.25:031][151]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
-[2017.12.13-04.39.25:031][151]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
-[2017.12.13-04.39.25:031][151]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
-[2017.12.13-04.39.25:132][151]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
-[2017.12.13-04.39.25:391][151]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
-[2017.12.13-04.39.25:391][151]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
-[2017.12.13-04.39.25:392][151]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
-[2017.12.13-04.39.25:392][151]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
-[2017.12.13-04.39.25:392][151]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
-[2017.12.13-04.39.25:392][151]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
-[2017.12.13-04.39.25:392][151]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
-[2017.12.13-04.39.25:392][151]LogModuleManager: Shutting down and abandoning module Paper2D (236)
-[2017.12.13-04.39.25:392][151]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
-[2017.12.13-04.39.25:392][151]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
-[2017.12.13-04.39.25:393][151]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
-[2017.12.13-04.39.25:393][151]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
-[2017.12.13-04.39.25:393][151]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
-[2017.12.13-04.39.25:393][151]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
-[2017.12.13-04.39.25:393][151]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
-[2017.12.13-04.39.25:393][151]LogModuleManager: Shutting down and abandoning module Media (221)
-[2017.12.13-04.39.25:399][151]LogModuleManager: Shutting down and abandoning module Overlay (218)
-[2017.12.13-04.39.25:399][151]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
-[2017.12.13-04.39.25:399][151]LogModuleManager: Shutting down and abandoning module VREditor (214)
-[2017.12.13-04.39.25:399][151]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
-[2017.12.13-04.39.25:399][151]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
-[2017.12.13-04.39.25:399][151]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
-[2017.12.13-04.39.25:399][151]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
-[2017.12.13-04.39.25:399][151]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
-[2017.12.13-04.39.25:399][151]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
-[2017.12.13-04.39.25:399][151]LogModuleManager: Shutting down and abandoning module UMG (200)
-[2017.12.13-04.39.25:399][151]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
-[2017.12.13-04.39.25:399][151]LogModuleManager: Shutting down and abandoning module Sequencer (198)
-[2017.12.13-04.39.25:399][151]LogModuleManager: Shutting down and abandoning module MessageLog (195)
-[2017.12.13-04.39.25:399][151]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
-[2017.12.13-04.39.25:399][151]LogModuleManager: Shutting down and abandoning module Slate (188)
-[2017.12.13-04.39.25:399][151]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
-[2017.12.13-04.39.25:401][151]LogModuleManager: Shutting down and abandoning module MRMesh (184)
-[2017.12.13-04.39.25:401][151]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
-[2017.12.13-04.39.25:401][151]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
-[2017.12.13-04.39.25:401][151]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
-[2017.12.13-04.39.25:401][151]LogModuleManager: Shutting down and abandoning module Networking (176)
-[2017.12.13-04.39.25:401][151]LogModuleManager: Shutting down and abandoning module Core (172)
-[2017.12.13-04.39.25:401][151]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
-[2017.12.13-04.39.25:401][151]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
-[2017.12.13-04.39.25:401][151]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2017.12.13-04.39.25:401][151]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2017.12.13-04.39.25:401][151]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2017.12.13-04.39.25:401][151]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2017.12.13-04.39.25:401][151]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
-[2017.12.13-04.39.25:401][151]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
-[2017.12.13-04.39.25:401][151]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
-[2017.12.13-04.39.25:401][151]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
-[2017.12.13-04.39.25:401][151]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
-[2017.12.13-04.39.25:471][151]LogDerivedDataCache: Shutdown
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module Messaging (105)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module InputCore (64)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module Settings (62)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module SteamVR (58)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2017.12.13-04.39.25:471][151]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2017.12.13-04.39.25:471][151]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.12.13-04.39.25:471][151]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA4B2338D-402D-FD14-838B-C9984E91AF0D%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.2-3794801%2B%2B%2BUE4%2BRelease-4.18&UserID=208ea999496556d4f47c4a8ffb8597a8%7C6c14aff20c4647fcb1fd613877e452df%7C3d357995-db55-409e-a349-21772727df74&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.12.13-04.39.25:497][151]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2017.12.13-04.39.25:498][151]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2017.12.13-04.39.25:498][151]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2017.12.13-04.39.25:498][151]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2017.12.13-04.39.25:498][151]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2017.12.13-04.39.25:498][151]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2017.12.13-04.39.25:498][151]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2017.12.13-04.39.25:498][151]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2017.12.13-04.39.25:498][151]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2017.12.13-04.39.25:498][151]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2017.12.13-04.39.25:498][151]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2017.12.13-04.39.25:498][151]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2017.12.13-04.39.25:498][151]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2017.12.13-04.39.25:498][151]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2017.12.13-04.39.25:498][151]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2017.12.13-04.39.25:498][151]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2017.12.13-04.39.25:498][151]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.12.13-04.39.25:498][151]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.12.13-04.39.25:498][151]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.12.13-04.39.25:501][151]LogExit: Exiting.
-[2017.12.13-04.39.25:509][151]Log file closed, 12/12/17 20:39:25
+[2017.12.13-04.42.23:944][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.13-04.42.23:944][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.13-04.42.23:952][  0]LogInit: Computer: JETBOT
+[2017.12.13-04.42.23:952][  0]LogInit: User: jhm52
+[2017.12.13-04.42.23:952][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.13-04.42.23:952][  0]LogInit: High frequency timer resolution =4.101559 MHz
+[2017.12.13-04.42.23:953][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.12.13-04.42.23:953][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.13-04.42.23:953][  0]LogMemory: Process Physical Memory: 273.51 MB used, 273.51 MB peak
+[2017.12.13-04.42.23:953][  0]LogMemory: Process Virtual Memory: 271.77 MB used, 271.77 MB peak
+[2017.12.13-04.42.23:953][  0]LogMemory: Physical Memory: 6983.73 MB used,  25703.21 MB free, 32686.94 MB total
+[2017.12.13-04.42.23:953][  0]LogMemory: Virtual Memory: 679.73 MB used,  25703.21 MB free, 134217728.00 MB total
+[2017.12.13-04.42.24:057][  0]LogInit: Using OS detected language (en-US).
+[2017.12.13-04.42.24:057][  0]LogInit: Using OS detected locale (en-US).
+[2017.12.13-04.42.24:059][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.12.13-04.42.24:346][  0]LogInit: Setting process to per monitor DPI aware
+[2017.12.13-04.42.24:537][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.13-04.42.24:580][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2017.12.13-04.42.24:580][  0]LogD3D11RHI:       6061/0/16343 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.12.13-04.42.24:581][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.13-04.42.24:581][  0]LogD3D11RHI:       0/0/16343 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.13-04.42.24:581][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.13-04.42.24:586][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.13-04.42.24:586][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.13-04.42.24:586][  0]LogWindows: EnumDisplayDevices:
+[2017.12.13-04.42.24:586][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2017.12.13-04.42.24:586][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2017.12.13-04.42.24:586][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.12.13-04.42.24:586][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.12.13-04.42.24:586][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.12.13-04.42.24:586][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2017.12.13-04.42.24:586][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.12.13-04.42.24:586][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.12.13-04.42.24:586][  0]LogRHI: Texture pool is 4242 MB (70% of 6061 MB)
+[2017.12.13-04.42.24:604][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.13-04.42.24:662][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.13-04.42.24:664][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Intermediate/Shaders/WorkingDirectory/19012/).
+[2017.12.13-04.42.24:664][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jhm52/AppData/Local/Temp/UnrealShaderWorkingDir/B88050414E15DAC7BD0102971E67EA8E/'.
+[2017.12.13-04.42.24:664][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.13-04.42.25:311][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.13-04.42.25:348][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.13-04.42.25:411][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.13-04.42.25:460][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.13-04.42.25:497][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.13-04.42.25:534][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.13-04.42.25:575][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.13-04.42.25:610][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.13-04.42.25:642][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.13-04.42.25:676][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.13-04.42.25:711][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.13-04.42.25:746][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.13-04.42.25:781][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.13-04.42.25:816][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.13-04.42.25:886][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.13-04.42.25:886][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.13-04.42.25:926][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.13-04.42.25:955][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.13-04.42.26:035][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.13-04.42.26:054][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.13-04.42.26:088][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.13-04.42.26:123][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.13-04.42.26:156][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.13-04.42.26:191][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.13-04.42.26:191][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.13-04.42.26:519][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.13-04.42.26:568][  0]LogDerivedDataCache: Loaded boot cache 0.05s 96MB C:/Users/jhm52/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.12.13-04.42.26:569][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jhm52/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2017.12.13-04.42.26:569][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.13-04.42.26:569][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.13-04.42.26:569][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.13-04.42.26:569][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.13-04.42.26:580][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.13-04.42.26:591][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jhm52/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.13-04.42.26:598][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.13-04.42.26:599][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.13-04.42.26:599][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.13-04.42.26:599][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.13-04.42.26:850][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.13-04.42.27:077][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.13-04.42.27:105][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.13-04.42.27:105][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.13-04.42.27:105][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.13-04.42.27:105][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.13-04.42.27:105][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.13-04.42.27:130][  0]LogNetVersion: CodexTest , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4184562547)
+[2017.12.13-04.42.27:250][  0]LogAssetRegistry: FAssetRegistry took 0.0248 seconds to start up
+[2017.12.13-04.42.27:614][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.060329 seconds
+[2017.12.13-04.42.27:619][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
+[2017.12.13-04.42.27:619][  0]LogUObjectAllocator: 7372024 out of 0 bytes used by permanent object pool.
+[2017.12.13-04.42.27:619][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.13-04.42.27:655][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.13-04.42.29:526][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.13-04.42.29:556][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.13-04.42.30:021][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.13-04.42.30:312][  0]SourceControl: Source control is disabled
+[2017.12.13-04.42.30:312][  0]SourceControl: Source control is disabled
+[2017.12.13-04.42.30:350][  0]SourceControl: Source control is disabled
+[2017.12.13-04.42.30:387][  0]SourceControl: Source control is disabled
+[2017.12.13-04.42.30:971][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.13-04.42.31:164][  0]LogOcInput: OculusInput pre-init called
+[2017.12.13-04.42.31:378][  0]LogEngine: Initializing Engine...
+[2017.12.13-04.42.31:396][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2017.12.13-04.42.31:556][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.13-04.42.31:556][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.13-04.42.31:660][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.13-04.42.31:677][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.13-04.42.31:691][  0]LogInit: FAudioDevice initialized.
+[2017.12.13-04.42.31:777][  0]LogDerivedDataCache: Saved boot cache 0.09s 78MB C:/Users/jhm52/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.12.13-04.42.31:786][  0]LogInit: Texture streaming: Enabled
+[2017.12.13-04.42.31:860][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.13-04.42.31:955][  0]LogInit: Transaction tracking system initialized
+[2017.12.13-04.42.32:170][  0]BlueprintLog: New page: Editor Load
+[2017.12.13-04.42.32:798][  0]LocalizationService: Localization service is disabled
+[2017.12.13-04.42.33:490][  0]LogConsoleResponse: Display: 
+[2017.12.13-04.42.33:623][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.13-04.42.33:623][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/' took 0.01s
+[2017.12.13-04.42.33:623][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.13-04.42.33:623][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.13-04.42.34:434][  0]SourceControl: Source control is disabled
+[2017.12.13-04.42.34:434][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.13-04.42.34:434][  0]LightingResults: New page: Lighting Build
+[2017.12.13-04.42.34:466][  0]MapCheck: New page: Map Check
+[2017.12.13-04.42.34:466][  0]LightingResults: New page: Lighting Build
+[2017.12.13-04.42.34:638][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.12.13-04.42.34:643][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.13-04.42.34:651][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.13-04.42.34:682][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 31.361ms to complete.
+[2017.12.13-04.42.34:682][  0]LogFileHelpers: Loading map 'Template_Default' took 0.249
+[2017.12.13-04.42.34:805][  0]LogCollectionManager: Loaded 0 collections in 0.001023 seconds
+[2017.12.13-04.42.34:875][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jhm52/Dropbox/Unreal Projects/CodexTest/Saved/Collections/' took 0.01s
+[2017.12.13-04.42.34:875][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Developers/jhm52/Collections/' took 0.01s
+[2017.12.13-04.42.34:875][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Collections/' took 0.01s
+[2017.12.13-04.42.34:875][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.12.13-04.42.34:881][  0]LogContentBrowser: Native class hierarchy populated in 0.0058 seconds. Added 2363 classes and 519 folders.
+[2017.12.13-04.42.34:928][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2017.12.13-04.42.34:950][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2017.12.13-04.42.34:981][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2017.12.13-04.42.35:021][  0]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.13-04.42.35:022][  0]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.13-04.42.35:026][  0]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.13-04.42.35:095][  0]LogRenderer: Reallocating scene render targets to support 1100x544 Format 9 NumSamples 1 (Frame:1).
+[2017.12.13-04.42.35:255][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2017.12.13-04.42.35:255][  0]LogLoad: (Engine Initialization) Total time: 12.89 seconds
+[2017.12.13-04.42.35:255][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.13-04.42.35:255][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.12.13-04.42.35:255][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.12.13-04.42.35:264][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.13-04.42.35:276][  0]LogAssetRegistry: Asset discovery search completed in 8.0488 seconds
+[2017.12.13-04.42.35:277][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.12.13-04.42.35:277][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2017.12.13-04.42.35:279][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.12.13-04.42.35:384][  0]LogSlate: Took 0.000091 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.13-04.42.53:566][166]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.12.13-04.42.53:606][167]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.CodexTest
+[2017.12.13-04.42.53:606][167]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2017.12.13-04.42.53:606][167]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
+[2017.12.13-04.42.53:606][167]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2017.12.13-04.42.53:606][167]LogTemp: BranchPath = JETBOT/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = JETBOT/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
+[2017.12.13-04.42.53:606][167]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\jhm52\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.12.13-04.43.02:275][672]LogSlate: Took 0.000114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.13-04.43.26:009][193]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.12.13-04.43.38:708][898]LogSlate: Took 0.000089 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.13-04.43.38:719][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/CodexMap" FILE="../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Maps/CodexMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.13-04.43.38:753][898]LogSavePackage: Save=24.14ms
+[2017.12.13-04.43.38:753][898]LogSavePackage: Moving '../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Saved/CodexMap86A8C9EF449E40A997757883F033BA37.tmp' to '../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Maps/CodexMap.umap'
+[2017.12.13-04.43.38:754][898]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Maps/CodexMap.umap
+[2017.12.13-04.43.38:783][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/CodexMap_BuiltData" FILE="../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Maps/CodexMap_BuiltData.uasset" SILENT=true
+[2017.12.13-04.43.38:795][898]LogSavePackage: Save=10.10ms
+[2017.12.13-04.43.38:795][898]LogSavePackage: Moving '../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Saved/CodexMap_BuiltData39B985474FD8E33EC000D184C5EBE800.tmp' to '../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Maps/CodexMap_BuiltData.uasset'
+[2017.12.13-04.43.38:796][898]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Maps/CodexMap_BuiltData.uasset
+[2017.12.13-04.43.38:800][898]LogFileHelpers: Saving map 'CodexMap' took 0.132
+[2017.12.13-04.43.38:801][898]Cmd: MAP LOAD FILE="../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Maps/CodexMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.13-04.43.38:819][898]LightingResults: New page: Lighting Build
+[2017.12.13-04.43.38:819][898]LoadErrors: New page: Loading map: CodexMap.umap
+[2017.12.13-04.43.38:821][898]MapCheck: New page: Map Check
+[2017.12.13-04.43.38:821][898]LightingResults: New page: Lighting Build
+[2017.12.13-04.43.38:841][898]LogAIModule: Creating AISystem for world CodexMap
+[2017.12.13-04.43.38:880][898]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.13-04.43.38:906][898]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.13-04.43.38:939][898]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 32.825ms to complete.
+[2017.12.13-04.43.38:939][898]LogFileHelpers: Loading map 'CodexMap' took 0.139
+[2017.12.13-04.43.38:939][898]LoadErrors: Error: /Game/Maps/CodexMap : Failed import for MapBuildDataRegistry /Game/Maps/CodexMap_BuiltData.CodexMap_BuiltData Referenced by export Level /Game/Maps/CodexMap.CodexMap:PersistentLevel
+[2017.12.13-04.43.40:217][ 50]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.12.13-04.43.40:506][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/CodexMap" FILE="../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Maps/CodexMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.13-04.43.40:542][ 79]LogSavePackage: Save=23.00ms
+[2017.12.13-04.43.40:542][ 79]LogSavePackage: Moving '../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Saved/CodexMap1833F8F74DB93E8664BD99AFFE30235E.tmp' to '../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Maps/CodexMap.umap'
+[2017.12.13-04.43.40:543][ 79]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Maps/CodexMap.umap
+[2017.12.13-04.43.44:565][399]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.12.13-04.43.44:602][400]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.CodexTest
+[2017.12.13-04.43.44:602][400]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2017.12.13-04.43.44:602][400]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
+[2017.12.13-04.43.44:602][400]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2017.12.13-04.43.44:602][400]LogTemp: BranchPath = JETBOT/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = JETBOT/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
+[2017.12.13-04.43.44:602][400]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\jhm52\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.12.13-04.43.49:387][850]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.12.13-04.43.50:515][975]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.12.13-04.44.57:389][151]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.12.13-04.44.57:425][152]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.CodexTest
+[2017.12.13-04.44.57:425][152]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2017.12.13-04.44.57:425][152]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
+[2017.12.13-04.44.57:425][152]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2017.12.13-04.44.57:425][152]LogTemp: BranchPath = JETBOT/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = JETBOT/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
+[2017.12.13-04.44.57:439][153]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\jhm52\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.12.13-04.45.10:295][264]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.13-04.45.10:317][264]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.13-04.45.10:317][264]PIE: New page: PIE session: CodexMap (Dec 12, 2017, 12:45:10 PM)
+[2017.12.13-04.45.10:317][264]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CodexMap
+[2017.12.13-04.45.10:321][264]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004157s)
+[2017.12.13-04.45.10:322][264]LogAIModule: Creating AISystem for world CodexMap
+[2017.12.13-04.45.10:322][264]LogPlayLevel: PIE: World Init took: (0.000655s)
+[2017.12.13-04.45.10:322][264]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CodexMap.CodexMap to /Game/Maps/UEDPIE_0_CodexMap.CodexMap (0.005076s)
+[2017.12.13-04.45.10:338][264]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.13-04.45.10:348][264]LogInit: FAudioDevice initialized.
+[2017.12.13-04.45.10:385][264]LogLoad: Game class is 'GameModeBase'
+[2017.12.13-04.45.10:387][264]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CodexMap.CodexMap up for play (max tick rate 0) at 2017.12.12-20.45.10
+[2017.12.13-04.45.10:387][264]LogWorld: Bringing up level for play took: 0.000477
+[2017.12.13-04.45.10:418][264]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 11 classes and 0 folders.
+[2017.12.13-04.45.10:419][264]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CodexMap 0.394
+[2017.12.13-04.45.54:836][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameMode/CodexGameMode" FILE="../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/GameMode/CodexGameMode.uasset" SILENT=true
+[2017.12.13-04.45.54:846][318]LogSavePackage: Save=8.00ms
+[2017.12.13-04.45.54:846][318]LogSavePackage: Moving '../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Saved/CodexGameMode64DE464448E4FCE4B50FB1998F394FA0.tmp' to '../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/GameMode/CodexGameMode.uasset'
+[2017.12.13-04.45.54:850][318]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/GameMode/CodexGameMode.uasset
+[2017.12.13-04.46.14:221][686]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Controller/CodexPlayerController" FILE="../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Controller/CodexPlayerController.uasset" SILENT=true
+[2017.12.13-04.46.14:232][686]LogSavePackage: Save=8.16ms
+[2017.12.13-04.46.14:232][686]LogSavePackage: Moving '../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Saved/CodexPlayerController3EA1373F48DE495BBD043C8AD166FD6F.tmp' to '../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Controller/CodexPlayerController.uasset'
+[2017.12.13-04.46.14:235][686]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Controller/CodexPlayerController.uasset
+[2017.12.13-04.46.32:497][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/CodexMap" FILE="../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Maps/CodexMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.13-04.46.32:526][ 13]LogSavePackage: Save=20.67ms
+[2017.12.13-04.46.32:526][ 13]LogSavePackage: Moving '../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Saved/CodexMap9C8BE20944F51CD4A5C8688528882DAB.tmp' to '../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Maps/CodexMap.umap'
+[2017.12.13-04.46.32:528][ 13]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Maps/CodexMap.umap
+[2017.12.13-04.46.43:019][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Character/CodexCharacter" FILE="../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Actors/Character/CodexCharacter.uasset" SILENT=true
+[2017.12.13-04.46.43:034][483]LogSavePackage: Save=13.26ms
+[2017.12.13-04.46.43:034][483]LogSavePackage: Moving '../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Saved/CodexCharacter68CE7D9141DE80400C3D109CA6609CF6.tmp' to '../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Actors/Character/CodexCharacter.uasset'
+[2017.12.13-04.46.43:036][483]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Actors/Character/CodexCharacter.uasset
+[2017.12.13-04.46.47:375][827]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.12.13-04.46.47:416][828]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.CodexTest
+[2017.12.13-04.46.47:416][828]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2017.12.13-04.46.47:416][828]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
+[2017.12.13-04.46.47:416][828]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2017.12.13-04.46.47:416][828]LogTemp: BranchPath = JETBOT/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = JETBOT/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
+[2017.12.13-04.46.47:416][828]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\jhm52\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.12.13-04.46.51:002][ 54]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.12.13-04.47.05:992][932]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/CodexMap" FILE="../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Maps/CodexMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.13-04.47.06:022][932]LogSavePackage: Save=20.99ms
+[2017.12.13-04.47.06:022][932]LogSavePackage: Moving '../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Saved/CodexMap8166F78D4C9ACA624271CB80BD8BCF32.tmp' to '../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Maps/CodexMap.umap'
+[2017.12.13-04.47.06:024][932]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Maps/CodexMap.umap
+[2017.12.13-04.47.06:249][946]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/CodexMap" FILE="../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Maps/CodexMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.13-04.47.06:278][946]LogSavePackage: Save=20.31ms
+[2017.12.13-04.47.06:278][946]LogSavePackage: Moving '../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Saved/CodexMap337424D24EF77EEB3E76239724CDFB89.tmp' to '../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Maps/CodexMap.umap'
+[2017.12.13-04.47.06:279][946]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Maps/CodexMap.umap
+[2017.12.13-04.47.08:340][139]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 116 classes and 0 folders.
+[2017.12.13-04.47.08:761][139]LogSlate: Took 0.000093 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.13-04.47.08:863][139]LogRenderer: Reallocating scene render targets to support 1208x780 Format 9 NumSamples 1 (Frame:1).
+[2017.12.13-04.47.09:997][266]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.13-04.47.34:965][190]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.13-04.47.34:984][190]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.13-04.47.34:985][190]PIE: New page: PIE session: CodexMap (Dec 12, 2017, 12:47:34 PM)
+[2017.12.13-04.47.34:985][190]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CodexMap
+[2017.12.13-04.47.34:988][190]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003496s)
+[2017.12.13-04.47.34:988][190]LogAIModule: Creating AISystem for world CodexMap
+[2017.12.13-04.47.34:989][190]LogPlayLevel: PIE: World Init took: (0.000520s)
+[2017.12.13-04.47.34:989][190]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CodexMap.CodexMap to /Game/Maps/UEDPIE_0_CodexMap.CodexMap (0.004204s)
+[2017.12.13-04.47.35:011][190]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.13-04.47.35:020][190]LogInit: FAudioDevice initialized.
+[2017.12.13-04.47.35:055][190]LogLoad: Game class is 'CodexGameMode_C'
+[2017.12.13-04.47.35:056][190]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CodexMap.CodexMap up for play (max tick rate 0) at 2017.12.12-20.47.35
+[2017.12.13-04.47.35:056][190]LogWorld: Bringing up level for play took: 0.000534
+[2017.12.13-04.47.35:057][190]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.13-04.47.35:057][190]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.13-04.47.35:057][190]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.12.13-04.47.35:058][190]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.12.13-04.47.35:058][190]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CodexMap 1.033
+[2017.12.13-04.47.41:489][704]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.13-04.47.41:502][704]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.13-04.47.41:502][704]PIE: New page: PIE session: CodexMap (Dec 12, 2017, 12:47:41 PM)
+[2017.12.13-04.47.41:502][704]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CodexMap
+[2017.12.13-04.47.41:506][704]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003446s)
+[2017.12.13-04.47.41:506][704]LogAIModule: Creating AISystem for world CodexMap
+[2017.12.13-04.47.41:506][704]LogPlayLevel: PIE: World Init took: (0.000491s)
+[2017.12.13-04.47.41:506][704]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CodexMap.CodexMap to /Game/Maps/UEDPIE_0_CodexMap.CodexMap (0.004136s)
+[2017.12.13-04.47.41:526][704]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.13-04.47.41:535][704]LogInit: FAudioDevice initialized.
+[2017.12.13-04.47.41:566][704]LogLoad: Game class is 'CodexGameMode_C'
+[2017.12.13-04.47.41:567][704]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CodexMap.CodexMap up for play (max tick rate 0) at 2017.12.12-20.47.41
+[2017.12.13-04.47.41:567][704]LogWorld: Bringing up level for play took: 0.000584
+[2017.12.13-04.47.41:568][704]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.13-04.47.41:568][704]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.13-04.47.41:568][704]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.12.13-04.47.41:568][704]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.12.13-04.47.41:568][704]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CodexMap -0.456
+[2017.12.13-04.47.48:818][481]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.13-04.47.55:355][968]LogDirectoryWatcher: Warning: Failed to begin reading directory changes for ../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Plugins/. Error: The system cannot find the file specified. (0x00000002)
+[2017.12.13-04.47.58:221][279]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2017.12.13-04.48.01:019][498]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.12.13-04.48.01:054][499]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.CodexTest
+[2017.12.13-04.48.01:054][499]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2017.12.13-04.48.01:054][499]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
+[2017.12.13-04.48.01:054][499]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2017.12.13-04.48.01:054][499]LogTemp: BranchPath = JETBOT/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = JETBOT/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
+[2017.12.13-04.48.01:065][500]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\jhm52\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.12.13-04.51.31:793][305]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Character/CodexCharacter" FILE="../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Actors/Character/CodexCharacter.uasset" SILENT=true
+[2017.12.13-04.51.31:818][305]LogSavePackage: Save=19.64ms
+[2017.12.13-04.51.31:818][305]LogSavePackage: Moving '../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Saved/CodexCharacterA8C6F13C4457D9568FD6ACABD345FCA4.tmp' to '../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Actors/Character/CodexCharacter.uasset'
+[2017.12.13-04.51.31:823][305]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Actors/Character/CodexCharacter.uasset
+[2017.12.13-04.51.32:430][377]BlueprintLog: New page: Compile CodexCharacter
+[2017.12.13-04.51.45:357][911]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.13-04.51.45:372][911]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.13-04.51.45:372][911]PIE: New page: PIE session: CodexMap (Dec 12, 2017, 12:51:45 PM)
+[2017.12.13-04.51.45:372][911]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CodexMap
+[2017.12.13-04.51.45:377][911]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004334s)
+[2017.12.13-04.51.45:377][911]LogAIModule: Creating AISystem for world CodexMap
+[2017.12.13-04.51.45:377][911]LogPlayLevel: PIE: World Init took: (0.000560s)
+[2017.12.13-04.51.45:377][911]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CodexMap.CodexMap to /Game/Maps/UEDPIE_0_CodexMap.CodexMap (0.005088s)
+[2017.12.13-04.51.45:400][911]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.13-04.51.45:410][911]LogInit: FAudioDevice initialized.
+[2017.12.13-04.51.45:465][911]LogLoad: Game class is 'CodexGameMode_C'
+[2017.12.13-04.51.45:466][911]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CodexMap.CodexMap up for play (max tick rate 0) at 2017.12.12-20.51.45
+[2017.12.13-04.51.45:467][911]LogWorld: Bringing up level for play took: 0.000479
+[2017.12.13-04.51.45:467][911]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.13-04.51.45:467][911]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.13-04.51.45:467][911]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.12.13-04.51.45:468][911]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.12.13-04.51.45:469][911]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CodexMap -0.555
+[2017.12.13-04.51.45:493][911]LogRenderer: Reallocating scene render targets to support 1292x780 Format 9 NumSamples 1 (Frame:1).
+[2017.12.13-04.51.58:761][365]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.12.13-04.51.58:799][366]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.CodexTest
+[2017.12.13-04.51.58:799][366]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2017.12.13-04.51.58:799][366]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
+[2017.12.13-04.51.58:799][366]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2017.12.13-04.51.58:799][366]LogTemp: BranchPath = JETBOT/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = JETBOT/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
+[2017.12.13-04.51.58:799][366]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\jhm52\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.12.13-04.53.10:424][935]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Character/CodexCharacter" FILE="../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Actors/Character/CodexCharacter.uasset" SILENT=true
+[2017.12.13-04.53.10:450][935]LogSavePackage: Save=22.58ms
+[2017.12.13-04.53.10:451][935]LogSavePackage: Moving '../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Saved/CodexCharacter32EE0D9948459A6C8D88AB99314A26EB.tmp' to '../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Actors/Character/CodexCharacter.uasset'
+[2017.12.13-04.53.10:456][935]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Actors/Character/CodexCharacter.uasset
+[2017.12.13-04.53.11:075][973]BlueprintLog: New page: Compile CodexCharacter
+[2017.12.13-04.53.17:206][535]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.13-04.53.17:222][535]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.13-04.53.17:222][535]PIE: New page: PIE session: CodexMap (Dec 12, 2017, 12:53:17 PM)
+[2017.12.13-04.53.17:222][535]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CodexMap
+[2017.12.13-04.53.17:226][535]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003758s)
+[2017.12.13-04.53.17:227][535]LogAIModule: Creating AISystem for world CodexMap
+[2017.12.13-04.53.17:227][535]LogPlayLevel: PIE: World Init took: (0.000599s)
+[2017.12.13-04.53.17:227][535]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CodexMap.CodexMap to /Game/Maps/UEDPIE_0_CodexMap.CodexMap (0.004605s)
+[2017.12.13-04.53.17:249][535]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.13-04.53.17:258][535]LogInit: FAudioDevice initialized.
+[2017.12.13-04.53.17:310][535]LogLoad: Game class is 'CodexGameMode_C'
+[2017.12.13-04.53.17:311][535]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CodexMap.CodexMap up for play (max tick rate 0) at 2017.12.12-20.53.17
+[2017.12.13-04.53.17:311][535]LogWorld: Bringing up level for play took: 0.000677
+[2017.12.13-04.53.17:312][535]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.13-04.53.17:312][535]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.13-04.53.17:312][535]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.12.13-04.53.17:313][535]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.12.13-04.53.17:314][535]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CodexMap -0.71
+[2017.12.13-04.53.26:221][116]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.12.13-04.53.26:246][116]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.CodexTest
+[2017.12.13-04.53.26:246][116]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2017.12.13-04.53.26:246][116]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
+[2017.12.13-04.53.26:246][116]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2017.12.13-04.53.26:248][116]LogTemp: BranchPath = JETBOT/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = JETBOT/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
+[2017.12.13-04.53.26:256][116]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\jhm52\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.12.13-04.53.37:382][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/CodexMap" FILE="../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Maps/CodexMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.13-04.53.37:423][979]LogSavePackage: Save=21.41ms
+[2017.12.13-04.53.37:423][979]LogSavePackage: Moving '../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Saved/CodexMapDB77C34D4085F01841BEBE87CA5ACABE.tmp' to '../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Maps/CodexMap.umap'
+[2017.12.13-04.53.37:424][979]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/jhm52/Dropbox/Unreal Projects/CodexTest/Content/Maps/CodexMap.umap
+[2017.12.13-04.53.38:185][ 46]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.13-04.53.38:199][ 46]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.13-04.53.38:199][ 46]PIE: New page: PIE session: CodexMap (Dec 12, 2017, 12:53:38 PM)
+[2017.12.13-04.53.38:200][ 46]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CodexMap
+[2017.12.13-04.53.38:203][ 46]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003381s)
+[2017.12.13-04.53.38:203][ 46]LogAIModule: Creating AISystem for world CodexMap
+[2017.12.13-04.53.38:204][ 46]LogPlayLevel: PIE: World Init took: (0.000627s)
+[2017.12.13-04.53.38:204][ 46]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CodexMap.CodexMap to /Game/Maps/UEDPIE_0_CodexMap.CodexMap (0.004248s)
+[2017.12.13-04.53.38:232][ 46]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.13-04.53.38:240][ 46]LogInit: FAudioDevice initialized.
+[2017.12.13-04.53.38:273][ 46]LogLoad: Game class is 'CodexGameMode_C'
+[2017.12.13-04.53.38:274][ 46]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CodexMap.CodexMap up for play (max tick rate 0) at 2017.12.12-20.53.38
+[2017.12.13-04.53.38:274][ 46]LogWorld: Bringing up level for play took: 0.000423
+[2017.12.13-04.53.38:274][ 46]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.13-04.53.38:274][ 46]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.13-04.53.38:274][ 46]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.12.13-04.53.38:275][ 46]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.12.13-04.53.38:275][ 46]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CodexMap 0.251
